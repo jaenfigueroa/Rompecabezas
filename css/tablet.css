@@ -1,5 +1,6 @@
 body {
-  /* background-color: crimson; */
+  background-color: crimson;
+  padding-top: 30px;
 }
 #contenedor-texto1 {
   margin-bottom: 50px;

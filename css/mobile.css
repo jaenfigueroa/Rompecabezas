@@ -13,7 +13,11 @@ ol {
   list-style: none;
 }
 /*/////////////////////////*/
-
+body {
+  /* background-color: antiquewhite; */
+  background: linear-gradient(#ecfdff, #41f0d1);
+  height: 100vh;
+}
 .contenedor-tableros {
   padding-top: 10px;
   display: flex;
@@ -54,6 +58,7 @@ ol {
 
 .espacio {
   background-color: aqua;
+  background-color: white;
   width: 100px;
   height: 100px;
   border: 1px solid black;
