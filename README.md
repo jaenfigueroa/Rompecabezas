@@ -8,4 +8,6 @@ https://jaenfigueroa.github.io/Rompecabezas/
 
 ## 🔗 Vista previa
 
-![App Screenshot](./assets/capturas/captura.png)
+![App Screenshot](./assets/capturas/desktop.png.png)
+
+![App Screenshot](./assets/capturas/mobile.png.png)
