@@ -59,7 +59,7 @@ while (piezas.length > 0) {
 
   div.className = 'pieza'
   div.id = pieza
-  div.style.backgroundImage = `url(./imagenes/${pieza}.jpg)`
+  div.style.backgroundImage = `url(./assets/grupos/shuek/${pieza}.jpg)`
   div.style.backgroundSize = 'cover'
   div.draggable = true
 
@@ -75,8 +75,7 @@ while (piezas.length > 0) {
   piezas.splice(numeroAleatorio, 1)
 }
 
-///////////////////////////////////////////////////////////
-
+//OTROS/////////////////////////////////////////////////////////
 function mostrarTexto(respuesta) {
   texto.textContent(respuesta)
 }
