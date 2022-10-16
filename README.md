@@ -8,6 +8,6 @@
 ## 🔗 Vista previa en Mobile
 ![App Screenshot](./assets/capturas/mobile.png)
 
-## 🔗 LInks de la aplicacion web
+## 🔗 Sitio web de la aplicacion
 
 https://jaenfigueroa.github.io/Rompecabezas/
