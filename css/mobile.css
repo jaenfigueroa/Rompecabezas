@@ -64,7 +64,7 @@ body {
   border: 1px solid black;
 }
 .pieza {
-  background-color: rgb(255, 171, 244);
+  /* background-color: rgb(255, 171, 244); */
   width: 100px;
   height: 100px;
   border: 1px solid black;
