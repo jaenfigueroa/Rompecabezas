@@ -1,11 +1,11 @@
 
-# <div align="center" zoom='150'>Rompecabezas 🚀</div> 
+# <div align="center">Rompecabezas 🚀</div> 
 
-## 🔗 Vista previa (Desktop)
+## 🔗 Vista previa en Desktop
 
 ![App Screenshot](./assets/capturas/desktop.png)
 
-## 🔗 Vista previa (Mobile)
+## 🔗 Vista previa en Mobile
 ![App Screenshot](./assets/capturas/mobile.png)
 
 ## 🔗 LInks de la aplicacion web
