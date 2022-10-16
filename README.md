@@ -1,5 +1,5 @@
 
-# <div align="center" fontsize='30rem'>Rompecabezas 🚀</div> 
+# <div align="center" font-size='30rem'>Rompecabezas 🚀</div> 
 
 ## 🔗 Vista previa (Desktop)
 
