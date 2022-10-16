@@ -1,5 +1,5 @@
 
-# <div align="center" width="15%" height="15%">Rompecabezas 🚀</div> 
+# <div align="center" zoom='150'>Rompecabezas 🚀</div> 
 
 ## 🔗 Vista previa (Desktop)
 
