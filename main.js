@@ -6,7 +6,8 @@ const piezas = [
 
 const tablero = document.querySelector('#tablero')
 const caja = document.querySelector('#caja')
-const texto = document.querySelector('#texto')
+const texto1 = document.querySelector('#texto1')
+const texto2 = document.querySelector('#texto2')
 
 //LLENAR LOS ESPACIOS EN EL TABLERO//////////////////////
 piezas.forEach(pieza => {
@@ -36,16 +37,16 @@ piezas.forEach(pieza => {
     if (igualdad) {
       div.append(document.getElementById(idElemento))
 
-      mostrarTexto('Correcto! 😀')
+      mostrarResultado('correcto')
 
       if (caja.children.length <= 0) {
-        mostrarTexto('⭐ GANASTE! ⭐')
+        mostrarResultado('ganaste')
       }
 
     } else {
       div.classList.remove('pintado')
 
-      mostrarTexto('Esa pieza no va ahi 😅')
+      mostrarResultado('noescorrecto')
     }
   })
 });
@@ -76,6 +77,30 @@ while (piezas.length > 0) {
 }
 
 //OTROS/////////////////////////////////////////////////////////
-function mostrarTexto(respuesta) {
-  texto.textContent = respuesta
+function mostrarResultado(respuesta) {
+
+  if (respuesta == 'noescorrecto') {
+    cambiarTexto('Esa pieza no va ahi 😅')
+    cambiarColor('rojo')
+
+  } else if (respuesta === 'correcto') {
+    cambiarTexto('Correcto! 😀')
+    cambiarColor('verde')
+
+  } else {
+    cambiarTexto('⭐ GANASTE! ⭐')
+    cambiarColor('dorado')
+
+    caja.style.display = 'none'
+  }
+}
+
+function cambiarTexto(contenido) {
+  texto1.textContent = contenido
+  texto2.textContent = contenido
+}
+
+function cambiarColor(color) {
+  texto1.className = color
+  texto2.className = color
 }
