@@ -77,5 +77,5 @@ while (piezas.length > 0) {
 
 //OTROS/////////////////////////////////////////////////////////
 function mostrarTexto(respuesta) {
-  texto.textContent(respuesta)
+  texto.textContent = respuesta
 }
