@@ -30,8 +30,7 @@ main {
   width: 300px;
   min-width: 300px;
   min-height: 300px;
-  background-color: rgb(255, 170, 139);
-
+  /* background-color: rgb(255, 170, 139); */
   align-content: flex-start;
 }
 .espacio {

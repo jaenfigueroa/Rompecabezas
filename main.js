@@ -39,7 +39,7 @@ piezas.forEach(pieza => {
       mostrarTexto('Correcto! 😀')
 
       if (caja.children.length <= 0) {
-        mostrarTexto('Ganaste! ⭐')
+        mostrarTexto('⭐ GANASTE! ⭐')
       }
 
     } else {
