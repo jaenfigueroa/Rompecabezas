@@ -80,15 +80,15 @@ while (piezas.length > 0) {
 function mostrarResultado(respuesta) {
 
   if (respuesta == 'noescorrecto') {
-    cambiarTexto('Esa pieza no va ahi 😅')
+    cambiarTexto('That piece does not go there 😅')
     cambiarColor('rojo')
 
   } else if (respuesta === 'correcto') {
-    cambiarTexto('Correcto! 😀')
+    cambiarTexto('Correct! 😀')
     cambiarColor('verde')
 
   } else {
-    cambiarTexto('⭐ GANASTE! ⭐')
+    cambiarTexto('⭐ WIN! ⭐')
     cambiarColor('dorado')
 
     caja.style.display = 'none'
